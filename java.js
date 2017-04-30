@@ -1,4 +1,4 @@
-var lon1=document.getElementsByName("lon")[0].value;
+var lon1=document.getElementsByName("lon")[0].value;//starting longitude taken from the input
 lon1= ~~lon1-0.46;
 var lon2=75.09;
 var lat1=document.getElementsByName("lat")[0].value;
